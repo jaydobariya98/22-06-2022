@@ -20,4 +20,4 @@ jobs:
           REMOTE_USER: ${{ secrets.USER }}
           REMOTE_PORT: 22
           SOURCE: "./"
-          TARGET: "/git/task"
+          TARGET: "home/ubuntu/git/22-06-2022/task"
