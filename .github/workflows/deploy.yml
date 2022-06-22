@@ -20,4 +20,4 @@ jobs:
           REMOTE_USER: ${{ secrets.USER }}
           REMOTE_PORT: 22
           SOURCE: "task"
-          TARGET: ${{ secrets.DEPLOY_TARGET }}
+          TARGET: var/www/html/
